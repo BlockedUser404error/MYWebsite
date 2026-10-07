@@ -1,0 +1,46 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Hero Section (matches your HTML) */
+.hero {
+  background: linear-gradient(135deg, #6d4aff, #9b7bff);
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  min-height: 60vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  padding: 1rem 2.5rem;
+  background: white;
+  color: #6d4aff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+}
